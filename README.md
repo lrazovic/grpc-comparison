@@ -10,6 +10,8 @@ Tested with:
 
 ## Rust
 
+In the `rust` subfolder:
+
 Run the server with
 ```bash
 cargo run --bin helloworld-server
@@ -21,3 +23,16 @@ cargo run --bin helloworld-client
 ```
 
 ## Java
+
+In the `java/gRPCExampleServer` subfolder:
+
+Run the server with
+```bash
+mvn compile exec:java -Dexec.mainClass="it.uniroma1.gRPCExampleServer.MyServer"
+
+```
+In the `java/gRPCExampleClient` subfolder:
+Run the client
+```bash
+mvn compile exec:java -Dexec.mainClass="it.uniroma1.gRPCExampleClient.MyClient"
+```
